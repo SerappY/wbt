@@ -1,0 +1,41 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <body>
+           <input type ="text1" id="yarıcap" placeholder="Yarıcapı Girin"><br/>
+           <input type ="text2" id="yükseklik" placeholder="Yüksekligi Girin"><br/>
+           <input type ="button" value="Lütfen Hesaplayın" id="hesapla">
+    <script>
+        function hesapla(){
+
+    var sayi1=document.getElementById("yarıcap").value;
+    var sayi2=document.getElementById("yükseklik").value;
+    r=Number(sayi1);
+    h=Number(sayi2);
+
+
+    var hacim=3.14*r*r*h;
+
+    alert("silindirin hacmi:"+hacim);
+
+    
+    
+    }
+
+    
+
+    var hesapBtn=document.getElementById("hesapla");
+
+      hesapBtn.onclick=hesapla;
+
+
+
+
+
+
+
+  </script>
+</body>
+</head>
+</html>
+ 
