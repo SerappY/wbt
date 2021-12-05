@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    
+
+        <head>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+            
+        </head>
+        <script type="text/javascript">
+
+            $(function(){
+            
+            $(topla).click(function(){
+                 x =parseInt ($('#t1').val()); 
+                 y =parseInt($('#t2').val());
+                 
+                        alert(x+y);
+         
+            });
+         
+            $(cikart).click(function(){
+                x =parseInt ($('#t1').val());
+                 y =parseInt($('#t2').val());
+         
+                 alert(x-y);
+         
+            });
+         
+            $(carp).click(function(){
+            x=parseInt($('#t1').val());
+            y=parseInt($('#t2').val());
+         
+            alert(x*y);
+            });
+         
+            $(bol).click(function(){
+         
+                x=parseInt($('#t1').val());
+                y=parseInt($('#t2').val());
+         
+                alert(x/y);
+         
+            });
+            
+            });
+            </script>
+         
+        <body>
+            
+            <h1><form style ="text-align: center;"><font color ="brown"><i>Hesap Makinesi</i></font></form></h1>
+            <p><form style="text-align: center;"><font color="Dark Blue"><i> İşlem Yapmak İstediğiniz Sayıları Giriniz!</i></font></form></p>
+
+
+            <form style ="text-align: center;">
+                <input type ="text" name="t1" id="t1"><br> <br/>
+                <input type="text" name ="t2" id ="t2"><br/><br/></form>
+                
+
+
+
+
+
+            <p><form style="text-align: center;"><font color="Dark Blue"><i> Hangi İşlemi Yapmak İstiyorsunuz?</i></font></form></p>
+            <form style ="text-align: center;">
+            <input type="button" value="Topla" name="topla" id="topla" style="margin:10px;"> 
+            <input type="button" value="Çıkart" name="cikart" id="cikart"><br/>
+            <input type="button" value="Çarp" name="carp" id="carp" style="margin:10px;">
+            <input type="button" value="Böl" name="bol" id="bol"></form>
+            
+            
+
+
+            
+            </form>
+            <hr/>
+            <footer>
+                <p style="text-align: center;">Merhaba Ben Serap YARDIMCI Bu Hesap Makinesi Bana Aittir!</p>
+            </footer>
+
+
+        </body>
+   
+</html>
